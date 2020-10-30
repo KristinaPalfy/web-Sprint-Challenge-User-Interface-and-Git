@@ -68,23 +68,61 @@ p {
 .navbar{
     width: 100%;
     margin: 0%;
-    display: block;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
 }
 
 .navbar img{
     margin: 2%;
     padding: 3px 2px;
-    display: inline;
-    float: left;
+    display: flex;
+    flex-direction: row;
 }
-.navbar li{
-    margin: 4%;
+.container .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.container .navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
     padding: 3px 2px;
-    display: inline;
-    float: left;
-    color: black;
 }
+
+.home{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.about{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
 
 .navbar li a{
     text-decoration: none;

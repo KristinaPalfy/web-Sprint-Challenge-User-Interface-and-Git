@@ -1,0 +1,65 @@
+.navbar{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.navbar img{
+    margin: 2%;
+    padding: 3px 2px;
+    display: flex;
+    flex-direction: row;
+}
+.container .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.container .navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 3px 2px;
+}
+
+.home{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.about{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
